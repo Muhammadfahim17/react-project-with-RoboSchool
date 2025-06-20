@@ -125,9 +125,9 @@ const App = () => {
     }
     setUsers([...users,newUser])
     setIsModalOpen(false)
-    inpImage('')
-    inpName('')
-    inpStatus('')
+    setInpImage('')
+    setInpName('')
+    setInpStatus('')
   }
 
 
